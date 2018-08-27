@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Black Mountain Brewpub</title>
+	<link rel="stylesheet" href="styles.css" />
+	<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Open+Sans+Condensed:300" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+</head>
+<body>
+	<!-- Container -->
+	<div id="container">
+		<!-- Header -->
+		<div id="header">
+			<!-- Logo -->
+			<div id="logo">
+				<h1>Black Mountain Brewpub</h1>
+			</div>
+			<!-- Social Media -->
+			<div id="social">
+				<ul>
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fa fa-opera"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- Hero Image -->
+		<div id="hero">
+			<!--<img src="images/beer.jpg" />-->
+			<div class="slider">
+				<img id="roto" name="slide">
+			</div>
+		</div>
+		<!-- Blocks -->
+		<div id="blocks">
+			<!-- Online Blog -->
+			<div id="blog">
+				<h1>Latest News</h1>
+				<h2>Black Mountain Brewpub to Host 2019 Believer Festival</h2>
+				<p>The Believer Festival is a two-day roving celebration of writing, music, and visual arts. In the heart of the desert of southern Nevada, established and emerging artists, comedians, literary...</p>
+				<a class="more" href="#">[READ MORE]</a>
+			</div>
+			<!-- Daily Special -->
+			<div id="special">
+				<h1>Daily Specials</h1>
+				<img src="images/bottles.jpg" />
+				<p>Our Happy Hour is 4-7 PM daily!</p>
+			</div>
+			<!-- Google Map -->
+			<div id="map">
+				<h1>Our Location</h1>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.5021044477203!2d-115.14386468539162!3d36.10562338009749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c5aa0a24d869%3A0x766fd2eb392637ac!2s4505+S+Maryland+Pkwy%2C+Las+Vegas%2C+NV+89154!5e0!3m2!1sen!2sus!4v1531591614707" width="240" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<!-- Tabs -->
+		<div id="tabs">
+			<ul>
+				<li><a href="#story">Our Story</a></li>
+				<li><a href="#menu">Menu</a></li>
+				<li><a href="#reservations">Reservations</a></li>
+				<li><a href="#reviews">Reviews</a></li>
+			</ul>
+			<!-- Story -->
+			<section id="story">
+				<h1>"When I get a little money, I buy books; and if any is left I buy food and clothes." &ndash;Erasmus</h1>
+				<p>The Beverly Rogers, Carol C. Harter Black Mountain Institute at the University of Nevada, Las Vegas brings writers, and the literary imagination, into the heart of public life. Black Mountain Brewpub is a place for these writers to mix and mingle.</p>
+				<img src="images/cheers.jpg" />
+				<p>BMI hosts emerging and eminent writers and partners with a diverse array of institutions, beginning with the faculty and students of the Creative Writing Program International at UNLV. Other partners include The Writer's Block, Downtown Project, and Plympton in Las Vegas, as well as Archipelago Books, the Artist Protection Fund, the John W. Kluge Center at the Library of Congress, City of Asylum Pittsburgh, <span class="ital">McSweeney's</span>, and the International City of Refuge Network. In 2017, BMI became the new publishing home of <span class="ital">The Believer</span>.</p>
+			</section>
+			<!-- Menu -->
+			<section id="menu">
+			</section>
+			<!-- Reservations -->
+			<section id="reservations">
+				<h1>Make a Reservation</h1>
+				<form>
+					<label for="name">Full Name</label><br />
+					<input id="name" type="text" name="name" /><br />
+					<label for="guests">Number of Guests</label><br />
+					<input id="guests" type="number" name="guests" min="1" max="12" /><br />
+					<label for="date">Date</label><br />
+					<input id="date" type="date" name="date" /><br />
+					<label for="notes">Special Notes</label><br />
+					<textarea name="notes"></textarea><br />
+					<label for="seating">Seating Preference</label><br />
+					<select name="seating">
+						<option value="indoor" selected>Indoor</option>
+						<option value="outdoor">Outdoor</option>
+					</select><br />
+					<button id="submit" type="submit">Reserve Table</button>
+				</form>
+			</section>
+			<!-- Reviews -->
+			<section id="reviews">
+				<h1>Leave a Review</h1>
+				<form>
+					<label for="user">Username</label><br />
+					<input id="user" type="text" name="user" /><br />
+
+					<label for="stars">Stars</label><br />
+					<input id="stars" type="range" name="stars" min="0" max="5" /><br />
+
+					<label for="comments">Comments</label><br />
+					<textarea name="comments"></textarea><br />
+
+					<button id="submit" type="submit">Submit Review</button>
+				</form>
+			</section>
+		</div>
+		<!-- Footer -->
+		<div id="footer">
+			<!-- Copyright -->
+			<div id="copyright">
+				<p>&copy;2018 Black Mountain Brewpub</p>
+			</div>
+			<!-- Social Media 2 -->
+			<div id="social2">
+				<ul>
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fa fa-opera"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- JavaScript -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  	<script src="main.js"></script>	
+</body>
+</html>
